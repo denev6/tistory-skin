@@ -162,6 +162,7 @@ header>.tt-search-inner input::placeholder{color:#fff}
 #container #main #sidebar{flex:1;max-width:302px;min-width:260px}
 #container #sidebar.right{margin-left:36px;margin-right:0;padding-left:24px;border-left:1px solid var(--grey-200);height:min-content}
 .footer-wrap{border-top:var(--border);font-size:var(--font-xs);background-color:var(--grey-200);padding:24px;margin-top:48px}
+.ft-writer{margin-bottom: 16px;}
 .thumnail{position:relative;display:block;float:right;overflow:hidden;margin-left:16px}
 .e-content figure.imageblock.alignLeft,.e-content figure.imageblock.floatLeft figcaption,.e-content figure.imageblock.floatRight figcaption,.not-found{text-align:left}
 .not-found{display:block;width:100%;margin-bottom:32px}
