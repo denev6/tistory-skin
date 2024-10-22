@@ -51,7 +51,7 @@
     --line-height-md:1.5;
     --line-height-lg:1.8;
     --letter-spacing-kr:-0.0625em;
-    --font-sans:-apple-system,BlinkMacSystemFont,Pretendard-Regular,"Nanum Gothic",Helvetica,Arial,sans-serif,"Apple Color Emoji", "Segoe UI Emoji";
+    --font-sans:-apple-system,BlinkMacSystemFont,Helvetica,"Segoe UI","Noto Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     --box-padding:14px;
     --btn-padding:0.25em 0.75em;
     --radius-sm:4px;
@@ -413,7 +413,7 @@ table[data-ke-style=style12] tr td:first-child,table[data-ke-style=style13] tr t
 figure.imageslideblock div.image-container .btn{top:auto;bottom:4px;cursor:pointer}
 figure.imageslideblock div.image-container .btn span{opacity:.8;background-color:var(--grey-dimmed-85);border-radius:var(--radius-circle)}
 figure.imageslideblock div.image-container .btn-prev{left:auto;right:64px}
-code,kbd,samp{font-family:Consolas;font-size:var(--font-sm);border-radius:var(--radius-md)}
+code,kbd,samp{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:var(--font-sm);border-radius:var(--radius-md)}
 pre code{display:block;overflow-x:auto;tab-size:4}
 .hljs-ln-numbers{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;text-align:center;border-right:var(--border);vertical-align:top;width:20px;padding-left:0}
 .hljs-ln td.hljs-ln-numbers{padding-right:8px}
