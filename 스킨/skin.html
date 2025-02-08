@@ -693,7 +693,7 @@
         document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll("[data-ke-style='style3']").forEach((t=>{if((e=t.innerHTML.trimStart()).startsWith("@danger")||e.startsWith("@warning")){var e=e.split("<br>",2);t.setAttribute("style",`background-color: var(--${e[0].slice(1).trim()}) !important`),t.innerHTML=e[1]}})),document.querySelectorAll("[data-ke-type='moreLess']").forEach((t=>{var e=t.children[1].children[0],r=e.innerText;r.startsWith("@")&&(r=r.slice(1).trimStart(),t.children[0].innerText=r,t.setAttribute("data-text-more",r),e.remove())}))}));
       </script>
       <style type="text/css">
-        .post-content p code,.post-content u{padding:.2em .4em;text-decoration:none;border-radius:4px;background-color:#2525251a}
+        .post-content p code,.post-content li code,.post-content u{padding:.2em .4em;text-decoration:none;border-radius:4px;background-color:#2525251a}
       </style>
     </s_if_var_devRooStyle>
     <s_if_var_enableMathjax>
