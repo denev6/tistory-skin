@@ -1,7 +1,10 @@
 {
   "editor.formatOnSave": true,
+  // To minify CSS, JS
   "[css]": {
-    // To minify CSS
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
     "editor.formatOnSave": false
   }
 }

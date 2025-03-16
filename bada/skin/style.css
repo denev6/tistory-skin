@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700&display=swap);
 :root{--danger:#ffcccc;--warning:#fde7a0;--text-color:#333;--text-color-sub:#666;--primary-rgb:8,60,114;--primary-color:rgb(var(--primary-rgb))!important;--primary-dimmed-70:rgba(var(--primary-rgb), 0.7)!important;--primary-dimmed-10:rgba(var(--primary-rgb), 0.1)!important;--complementary-color:#663300;--font-h1:3rem;--font-h2:2rem;--font-h3:1.5rem;--font-xl:1.25rem;--font-lg:1.125rem;--font-md:16px;--font-sm:0.875rem;--font-xs:0.75rem;--font-medium:500;--font-bold:700;--line-height-sm:1.3;--line-height-md:1.5;--line-height-lg:1.8;--letter-spacing-kr:-0.025em;--font-sans:-apple-system,BlinkMacSystemFont,Helvetica,"Segoe UI","Noto Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";--font-serif:"Noto Serif KR","Nanum Myeongjo","Times New Roman",Times,"Georgia",serif}
+body{background:#fff;text-rendering:optimizeLegibility;font-size:var(--font-md);font-weight:500;}
 
 .area_head .btn_name,a,body{color:var(--text-color)}
 .area_head .btn_name,.area_menu .btn_cate,.tit_category .link_category,.tt-calendar .cal_month,.tt-calendar .cal_month a,.wrap_etc .list_total dd,.wrap_etc .list_total dt{font-weight:var(--font-bold)}
@@ -19,7 +20,6 @@ blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
 button,input,select,textarea{vertical-align:middle}
 input::-ms-clear{display:none}
 button{cursor:pointer}
-body{background:#fff;text-rendering:optimizeLegibility}
 body,button,input,select,td,textarea,th{font-size:var(--font-md);line-height:1.5;font-family:var(--font-sans)}
 a{text-decoration:none}
 a:active,a:hover{text-decoration:underline}
@@ -45,7 +45,7 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:500}
 .area_head .area_profile{position:relative;float:left;padding:15px 0 0 30px}
 .area_head .area_profile .link_profile,.area_paging .link_page,.area_reply .reply_content,.area_reply .writer_info,.wrap_etc .list_tag li{float:left}
 .area_head .area_profile .info_profile{float:left;max-width:270px}
-.area_head .btn_name{margin-top:5px;margin-bottom:2px}
+.area_head .btn_name{margin-top:5px;margin-bottom:2px;color:var(--text-color-sub);}
 .area_head .ico_name{width:10px;height:6px;margin:7px 0 0 6px;vertical-align:top}
 .area_head .txt_condition{width:100%;font-size:12px;color:var(--text-color-sub);text-overflow:ellipsis}
 .area_head .list_name{display:none;position:absolute;top:44px;left:92px;border:1px solid #dcdcdc;border-radius:2px;background-color:#fff}
@@ -63,7 +63,7 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:500}
 .area_menu .lab_search{float:left;width:16px;height:16px;margin:10px 9px 0 12px;background-position:0 -400px}
 .area_menu .tf_search{float:left;width:150px;margin-top:9px;border:0;vertical-align:top;color:var(--text-color)}
 .area_menu .area_navi{display:inline-block;position:relative;margin:0 2px 0 3px}
-.area_menu .btn_cate{width:160px;height:38px;border:1px solid #ddd;border-radius:3px;font-size:12px;line-height:38px;color:var(--text-color-sub);padding:0 1px 0 5px}
+.area_menu .btn_cate{width:160px;height:38px;border:1px solid #ddd;border-radius:3px;font-size:14px;font-weight:500;line-height:38px;color:var(--text-color-sub);padding:0 1px 0 5px}
 .area_menu .btn_cate:hover,.area_reply .my_reply .tit_nickname,.skin_view .area_view a:hover{color:var(--primary-color)}
 .area_menu .ico_cate{width:10px;height:6px;margin:-2px 0 0 53px;background-position:0 -50px;vertical-align:middle}
 .area_menu .list_cate{display:none;position:absolute;top:37px;left:0;width:158px;padding:18px 0 10px;border:1px solid #ddd;border-radius:0 0 3px 3px;background-color:#ffffffee}
@@ -206,9 +206,9 @@ span.mjx-denominator{bottom:auto!important}
 .area_reply .list_reply .my_reply,.area_reply .list_reply li:hover{background-color:#fcfcfc}
 .area_reply .list_reply .re_reply{padding-left:86px}
 .area_reply .list_reply .img_profile{margin-top:2px;opacity:1}
-.area_reply .tit_nickname{display:block;max-width:515px;margin:4px 5px 0 0;font-weight:var(--font-bold);color:var(--text-color)}
+.area_reply .tit_nickname{display:block;max-width:515px;margin:4px 5px 0 0;font-size:var(--font-sm);color:var(--text-color)}
 .area_reply .ico_secret{width:10px;height:12px;margin-top:4px;background-position:0 -475px;vertical-align:top;display:none}
-.area_reply .txt_reply{display:block;width:704px;margin-top:3px;font-size:12px}
+.area_reply .txt_reply{display:block;width:704px;margin-top:3px;font-size:var(--font-md)}
 .area_reply .re_reply .txt_reply{display:block;width:627px;margin-top:3px;font-size:12px}
 .area_reply .txt_date{display:block;margin-top:7px;font-size:12px;color:var(--text-color-sub)}
 .area_reply .list_reply li .my_edit{display:none;position:absolute;top:27px;right:16px}
