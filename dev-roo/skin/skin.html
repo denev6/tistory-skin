@@ -102,8 +102,8 @@
           <div class="dropdown-profile_info">
             <div class="dropdown-profile_info-inner">
               <a target="_blank" href=
-              <s_if_var_profileLink>"https://github.com/[##_var_profileLink_##]"</s_if_var_profileLink>
-              <s_not_var_profileLink>"[##_blog_link_##]"</s_not_var_profileLink>
+              <s_if_var_githubUserId>"https://github.com/[##_var_githubUserId_##]"</s_if_var_githubUserId>
+              <s_not_var_githubUserId>"[##_blog_link_##]"</s_not_var_githubUserId>
               >
               <img 
                 width="60px"
@@ -113,9 +113,9 @@
                 />
               <div class="dropdown-profile-text">
                 <p class="dropdown-profile-title">[##_title_##]</p>
-                <s_if_var_profileLink>
-                  <p class="github-link">github: @[##_var_profileLink_##]</p>
-                </s_if_var_profileLink>
+                <s_if_var_githubUserId>
+                  <p class="github-link">github: @[##_var_githubUserId_##]</p>
+                </s_if_var_githubUserId>
               </div>
               </a>
             </div>
@@ -681,12 +681,12 @@
           SKIN: Copyright ©
           <a href="https://toyou101.tistory.com">쭈미로운 생활</a> All rights reserved.
             Designed by <a href="https://toyou101.tistory.com">JJuum</a>.<br>
-            and Current skin "dev-roo" is modified by <a href="https://denev6.tistory.com">Jin</a>.
+            and Current skin "dev-roo" is modified by <a href="https://github.com/denev6">Jin</a>.
         </div>
       </div>
     </s_t3>
     <script>
-      document.addEventListener("DOMContentLoaded",(function(){mutationObserver.disconnect();var t=!1,e=!1,n=!1,o=document.querySelectorAll(".post-reply, .container_postbtn, pre code"),c=new IntersectionObserver((function(n,o){n.forEach((function(n){!function(n,o){if(n.isIntersecting){if(n.target.classList.contains("post-reply")){var c=blockedStylesheets.find((function(t){return t.href.includes("comment")}));c&&loadStylesheet(c.href),(c=blockedScripts.find((function(t){return t.src.includes("comment")})))&&loadScript(c.src).then((function(){var t=new Event("load");window.dispatchEvent(t)})).catch((function(){}))}else n.target.classList.contains("container_postbtn")?e||((c=blockedStylesheets.find((function(t){return t.href.includes("postBtn")})))&&loadStylesheet(c.href),(c=blockedScripts.find((function(t){return t.src.includes("reaction-button-container")})))&&loadScript(c.src),n.target.style.visibility="visible",e=!0):"PRE"!==n.target.parentElement.tagName||"CODE"!==n.target.tagName||t||(loadStylesheet("./images/code-[##_var_codeTheme_##].css"),loadScript("./images/highlight.js").then((function(){hljs.highlightAll(),loadScript("./images/line_number.js").then((function(){hljs.initLineNumbersOnLoad()})).catch((function(){}))})).catch((function(){})),t=!0);o.unobserve(n.target)}}(n,o)}))}),{root:null,rootMargin:"200px",threshold:.2});o.forEach((function(t){c.observe(t)})),window.addEventListener("scroll",(function(){var t=(document.body.scrollTop||document.documentElement.scrollTop)/(document.documentElement.scrollHeight-document.documentElement.clientHeight)*100,e=document.getElementById("progress");e&&(e.style.width=t+"%")}),{passive:!0});var r=document.getElementById("header_wrap");r&&window.addEventListener("scroll",(function(){50<window.scrollY?r.classList.add("shrink"):r.classList.remove("shrink")}),{passive:!0}),(o=document.querySelector(".btn_topMenu"))&&o.addEventListener("click",(function(t){if(t.stopPropagation(),t=document.querySelector(".dropdown-content")){if(!n){var e=blockedScripts.find((function(t){return t.src.includes("menubar.min")}));e&&loadScript(e.src),n=!0}(td=document.querySelector(".dimmed"))&&td.classList.toggle("show"),t.classList.toggle("dropdown-content-toggle")}})),[document.querySelector(".btn_close"),document.querySelector(".dimmed")].forEach((function(t){t.addEventListener("click",(function(t){t.stopPropagation(),(td=document.querySelector(".dimmed"))&&td.classList.remove("show"),(t=document.querySelector(".dropdown-content"))&&t.classList.remove("dropdown-content-toggle")}))})),document.querySelectorAll(".post_category_name").forEach((function(t){var e=t.textContent.trim().split("/")[1];e&&(t.textContent=e.trim())})),document.querySelectorAll(".p-category").forEach((function(t){var e=t.textContent.split("/")[1];e&&(t.textContent=e.trim())})),document.querySelectorAll("iframe").forEach((function(t){var e=t.getAttribute("name");t.setAttribute("title",e||"inner iframe")})),(o=document.getElementById("content"))&&o.classList.add("show"),window.addEventListener("scroll",(function t(){if(0<window.pageYOffset){var e=blockedScripts.find((function(t){return t.src.includes("googletagmanager.com/gtag/js?id")}));e&&loadScript(e.src).then((function(){var t=document.createElement("script");t.innerHTML=blockedScriptContents[0].textContent,document.head.appendChild(t)})).catch((function(){})),window.removeEventListener("scroll",t)}}),{passive:!0})}));
+      document.addEventListener("DOMContentLoaded",(function(){mutationObserver.disconnect();var t=!1,e=!1,n=!1,o=document.querySelectorAll(".post-reply, .container_postbtn, pre code"),c=new IntersectionObserver((function(n,o){n.forEach((function(n){!function(n,o){if(n.isIntersecting){if(n.target.classList.contains("post-reply")){var c=blockedStylesheets.find((function(t){return t.href.includes("comment")}));c&&loadStylesheet(c.href),(c=blockedScripts.find((function(t){return t.src.includes("comment")})))&&loadScript(c.src).then((function(){var t=new Event("load");window.dispatchEvent(t)})).catch((function(){}))}else n.target.classList.contains("container_postbtn")?e||((c=blockedStylesheets.find((function(t){return t.href.includes("postBtn")})))&&loadStylesheet(c.href),(c=blockedScripts.find((function(t){return t.src.includes("reaction-button-container")})))&&loadScript(c.src),n.target.style.visibility="visible",e=!0):"PRE"!==n.target.parentElement.tagName||"CODE"!==n.target.tagName||t||(loadStylesheet("./images/code-[##_var_codeTheme_##].css"),loadScript("./images/highlight.js").then((function(){hljs.highlightAll().catch((function(){}))})).catch((function(){})),t=!0);o.unobserve(n.target)}}(n,o)}))}),{root:null,rootMargin:"200px",threshold:.2});o.forEach((function(t){c.observe(t)})),window.addEventListener("scroll",(function(){var t=(document.body.scrollTop||document.documentElement.scrollTop)/(document.documentElement.scrollHeight-document.documentElement.clientHeight)*100,e=document.getElementById("progress");e&&(e.style.width=t+"%")}),{passive:!0});var r=document.getElementById("header_wrap");r&&window.addEventListener("scroll",(function(){50<window.scrollY?r.classList.add("shrink"):r.classList.remove("shrink")}),{passive:!0}),(o=document.querySelector(".btn_topMenu"))&&o.addEventListener("click",(function(t){if(t.stopPropagation(),t=document.querySelector(".dropdown-content")){if(!n){var e=blockedScripts.find((function(t){return t.src.includes("menubar.min")}));e&&loadScript(e.src),n=!0}(td=document.querySelector(".dimmed"))&&td.classList.toggle("show"),t.classList.toggle("dropdown-content-toggle")}})),[document.querySelector(".btn_close"),document.querySelector(".dimmed")].forEach((function(t){t.addEventListener("click",(function(t){t.stopPropagation(),(td=document.querySelector(".dimmed"))&&td.classList.remove("show"),(t=document.querySelector(".dropdown-content"))&&t.classList.remove("dropdown-content-toggle")}))})),document.querySelectorAll(".post_category_name").forEach((function(t){var e=t.textContent.trim().split("/")[1];e&&(t.textContent=e.trim())})),document.querySelectorAll(".p-category").forEach((function(t){var e=t.textContent.split("/")[1];e&&(t.textContent=e.trim())})),document.querySelectorAll("iframe").forEach((function(t){var e=t.getAttribute("name");t.setAttribute("title",e||"inner iframe")})),(o=document.getElementById("content"))&&o.classList.add("show"),window.addEventListener("scroll",(function t(){if(0<window.pageYOffset){var e=blockedScripts.find((function(t){return t.src.includes("googletagmanager.com/gtag/js?id")}));e&&loadScript(e.src).then((function(){var t=document.createElement("script");t.innerHTML=blockedScriptContents[0].textContent,document.head.appendChild(t)})).catch((function(){})),window.removeEventListener("scroll",t)}}),{passive:!0})}));
     </script>
     <s_if_var_devRooStyle>
       <script>
@@ -702,5 +702,9 @@
       </script>
       <script id="MathJax-script" async src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     </s_if_var_enableMathjax>
+    <!-- Block Highlight.js CDN from unknown -->
+    <script>
+      const highlightJsCDN="cdnjs.cloudflare.com/ajax/libs/highlight.js";window.onload=function(){document.querySelectorAll("script, link").forEach(e=>{(e.src?.includes(highlightJsCDN)||e.href?.includes(highlightJsCDN))&&e.remove()})};const observer=new MutationObserver(e=>{e.forEach(e=>{e.addedNodes.forEach(e=>{("SCRIPT"===e.tagName||"LINK"===e.tagName)&&(e.src?.includes(highlightJsCDN)||e.href?.includes(highlightJsCDN))&&e.remove()})})});observer.observe(document.documentElement,{childList:!0,subtree:!0});
+    </script>
   </body>
 </html>

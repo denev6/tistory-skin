@@ -6,7 +6,7 @@
 ## 캥거루 스킨
 
 - 이름: dev-roo
-- 버전: 1.1
+- 버전: 1.2
 - 저작권: MIT License
 
 ![캥거루 미리보기](/dev-roo/skin/preview1600.jpg)
@@ -31,10 +31,7 @@
 
 ### 오픈소스
 
-- 한눈에(v1.3.2): MIT LICENSE
-- line-numbers.js: MIT LICENSE
-- highlightjs(v11.9.0): BSD 3-Clause License
-- material-design-icons: Apache License 2.0
+[LICENSE](/dev-roo/skin/images/LICENSE)
 
 ## 바다 스킨
 

@@ -51,7 +51,7 @@
     --line-height-md:1.5;
     --line-height-lg:1.8;
     --letter-spacing-kr:-0.0625em;
-    --font-sans:-apple-system,BlinkMacSystemFont,Helvetica,"Segoe UI","Noto Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    --font-sans:-apple-system,BlinkMacSystemFont,Helvetica,"Segoe UI",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     --box-padding:14px;
     --btn-padding:0.25em 0.75em;
     --radius-sm:4px;
@@ -66,7 +66,7 @@
 }
 .dropdown-content .dropdown-profile-title,.hd .p-category,.module-notice ul li a,.toc-wrap .toc li{white-space:nowrap;text-overflow:ellipsis}
 #tt-search .tt-search-inner input:focus,:focus{outline:0}
-body,html{font-family:var(--font-sans);font-weight:var(--font-medium);font-size:var(--font-md);line-height:var(--line-height-md);color:var(--text-color);background-color:var(--bg-color);scroll-behavior:smooth;min-width:320px;-webkit-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;-ms-tap-highlight-color:transparent}
+body,html{font-family:var(--font-sans);font-weight:var(--font-medium);font-size:var(--font-md);line-height:var(--line-height-md);color:var(--text-color);background-color:var(--bg-color);scroll-behavior:smooth;min-width:320px;-webkit-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;-ms-tap-highlight-color:transparent;text-size-adjust:100%;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 ::selection{background-color:var(--primary-dimmed-20)}
 ::-webkit-scrollbar{-webkit-appearance:none;width:8px;height:8px}
 ::-webkit-scrollbar-track{background:0 0}
@@ -348,7 +348,7 @@ ul.list_related{margin:0}
 .container_postbtn .btn_menu_toolbar:hover{background:var(--primary-color)!important;color:var(--grey-50);transition:.3s}
 .container_postbtn .btn_post{padding:0!important}
 .container_postbtn .btn_menu_toolbar{background:var(--bg-btn);border-radius:var(--radius-sm)!important;border:0!important;margin:0!important;width:auto!important;height:auto!important;padding:var(--btn-padding)!important}
-.container_postbtn .btn_menu_toolbar .txt_state{display:flex;padding-left:4px}
+.container_postbtn .btn_menu_toolbar .txt_state{display:flex;padding:var(--btn-padding);color:var(--fg-btn-dark)}
 .container_postbtn .txt_state::before{content:"\e866";font-family:"Material Icons Outlined";font-size:18px;margin-right:2px}
 .container_postbtn .postbtn_like{display:inline-block;border:0!important;padding:0!important}
 .container_postbtn{padding:32px 0 16px!important;visibility:hidden}

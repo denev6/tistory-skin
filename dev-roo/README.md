@@ -1,7 +1,7 @@
 # 개발 블로그 전용 스킨
 
 - 이름: dev-roo
-- 버전: 1.1
+- 버전: 1.2
 - 저작권: MIT License
 
 ![캥거루 미리보기](/dev-roo/skin/preview1600.jpg)
@@ -24,9 +24,13 @@
 
 ※주의: 원본 스킨인 ["한눈에 스킨"](https://toyou101.tistory.com/16)에 *하단의 저작자 표시와 링크를 유지*라는 조건이 있습니다. 따라서 캥거루 스킨은 **하단의 저작자 표시와 링크를 유지**하는 조건에서 자유롭게 사용 가능합니다.
 
+## 업데이트 내용
+
+- iOS 관련 수정: iOS 환경에서 코드 블록이 과도하게 커지는 문제를 해결
+- 디자인 개선: 구독 버튼의 여백(padding) 및 색상 변경
+- 코드 하이라이팅 개선: Highlight.js를 최신 버전으로 업데이트
+- 기타 버그 및 사용성 개선
+
 ## 오픈소스
 
-- 한눈에(v1.3.2): MIT LICENSE
-- line-numbers.js: MIT LICENSE
-- highlightjs(v11.9.0): BSD 3-Clause License
-- material-design-icons: Apache License 2.0
+[LICENSE](/dev-roo/skin/images/LICENSE)
