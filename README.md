@@ -6,7 +6,7 @@
 ## 캥거루 스킨
 
 - 이름: dev-roo
-- 버전: 1.2
+- 버전: 1.2.1
 - 저작권: MIT License
 
 ![캥거루 미리보기](/dev-roo/skin/preview1600.jpg)
