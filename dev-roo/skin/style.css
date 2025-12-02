@@ -202,6 +202,7 @@ header>.tt-search-inner input::placeholder{color:#fff}
 .post-content ol ol,.post-content ul ul,.toc-wrap ul{margin:0}
 .post-content ol li,.post-content ul li{margin:12px 0 4px 16px}
 .post-content ol li::marker,.post-content ul li::marker{font-size:var(--font-xs)}
+.post-content ol {list-style-type: decimal;}
 .post-reply .tt-wrap-cmt .tt_desc{font-size:var(--font-sm);color:var(--text-color)!important}
 .dropdown-content .github-link,.post-reply .tt-wrap-cmt .tt-link-user{font-size:var(--font-sm);color:var(--text-light)}
 .post-reply .tt-wrap-cmt .tt-box-meta{padding:4px 0 8px}
